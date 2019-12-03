@@ -13,5 +13,5 @@ def print_first_directors_movie_titles
     pp directors_database[0][:movies][name_index][:title]
     name_index += 1 
   end
-  
+  return directors_database
 end
